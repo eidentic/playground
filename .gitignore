@@ -1,0 +1,18 @@
+/node_modules
+/.next
+/out
+/build
+*.tsbuildinfo
+next-env.d.ts
+
+# local libSQL database (memory persists here in dev; use Turso in production)
+*.db
+*.db-*
+playground.db*
+
+# env
+.env
+.env*.local
+
+.DS_Store
+.vercel
