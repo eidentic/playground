@@ -1,0 +1,8 @@
+<svg viewBox="0 0 115.5 85.5" xmlns="http://www.w3.org/2000/svg">
+  <!-- eidentic mark — Light (w8), tight-cropped: artwork starts at exactly 2px from top-left,
+       2px clear on all sides. Single canonical cut. Dark-surface ink. -->
+  <path d="M 67.8 26 A 34 34 0 1 0 67.8 65" fill="none" stroke="#e8e8ea" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 8 45.5 H 106" fill="none" stroke="#e8e8ea" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 106 45.5 V 79.5" fill="none" stroke="#e8e8ea" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="106" cy="9.5" r="7.5" fill="#f5a524"/>
+</svg>

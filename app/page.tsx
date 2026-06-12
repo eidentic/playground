@@ -131,7 +131,13 @@ export default function Playground() {
     <div className="shell">
       <header className="topbar">
         <div className="brand">
-          <span className="brand-mark">ei</span> Eidentic <span className="tag">Playground</span>
+          <svg width="26" viewBox="0 0 115.5 85.5" fill="none" aria-hidden className="brand-mark">
+            <path d="M 67.8 26 A 34 34 0 1 0 67.8 65" stroke="#e8e8ea" strokeWidth="8" strokeLinecap="round" />
+            <path d="M 8 45.5 H 106" stroke="#e8e8ea" strokeWidth="8" strokeLinecap="round" />
+            <path d="M 106 45.5 V 79.5" stroke="#e8e8ea" strokeWidth="8" strokeLinecap="round" />
+            <circle cx="106" cy="9.5" r="7.5" fill="#f5a524" />
+          </svg>
+          Eidentic <span className="tag">Playground</span>
         </div>
         <div className="topbar-spacer" />
         <a className="ghost" href="https://eidentic.dev" target="_blank" rel="noreferrer">Docs</a>
