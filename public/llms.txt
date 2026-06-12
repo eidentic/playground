@@ -1,0 +1,27 @@
+# Eidentic Playground
+
+> A live, in-browser demo of [Eidentic](https://eidentic.dev) — the open-source TypeScript SDK
+> for building AI agents with self-improving, cross-session memory. Chat with an agent that
+> remembers you across turns, watch its temporal knowledge graph fill in as you talk, inspect the
+> memory blocks it writes, and erase everything in a single call. Bring your own OpenAI or
+> Anthropic API key; it stays in your browser and is never stored or logged server-side.
+
+## What this demonstrates
+
+- **Cross-session memory**: the agent recalls facts you told it in earlier turns without re-sending the whole history.
+- **Temporal knowledge graph**: facts are extracted as `(subject, predicate, object)` triples with validity over time, shown live in the right-hand inspector.
+- **Memory blocks**: durable, editable summaries the agent maintains about you.
+- **Right to erasure (GDPR)**: one call to `eraseScope()` fans out and deletes everything for a session.
+- **Bring-your-own-key**: the key lives in browser localStorage and is sent only with your own requests.
+
+## Links
+
+- Live playground: https://try.eidentic.dev
+- Playground source: https://github.com/eidentic/playground
+- Eidentic SDK: https://github.com/eidentic/eidentic
+- Documentation: https://eidentic.dev
+- npm: https://www.npmjs.com/package/eidentic
+
+## License
+
+Eidentic is open source under Apache-2.0.

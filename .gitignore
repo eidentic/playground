@@ -16,3 +16,6 @@ playground.db*
 
 .DS_Store
 .vercel
+
+# Claude Code local tooling
+.claude/

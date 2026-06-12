@@ -141,7 +141,30 @@ export default function Playground() {
         </div>
         <div className="topbar-spacer" />
         <a className="ghost" href="https://eidentic.dev" target="_blank" rel="noreferrer">Docs</a>
-        <a className="ghost" href="https://github.com/eidentic/eidentic" target="_blank" rel="noreferrer">GitHub</a>
+        <a
+          className="ghost"
+          href="https://github.com/eidentic/playground"
+          target="_blank"
+          rel="noreferrer"
+          title="View this playground's source on GitHub"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+            <path d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.2 3.44 9.62 8.2 11.18.6.12.82-.26.82-.58 0-.28-.01-1.04-.02-2.04-3.34.72-4.04-1.6-4.04-1.6-.55-1.38-1.34-1.75-1.34-1.75-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.23 1.84 1.23 1.07 1.8 2.81 1.28 3.5.98.11-.76.42-1.28.76-1.58-2.67-.3-5.47-1.31-5.47-5.84 0-1.29.47-2.35 1.23-3.18-.12-.3-.53-1.51.12-3.15 0 0 1.01-.32 3.3 1.21a11.5 11.5 0 0 1 6 0c2.29-1.53 3.3-1.21 3.3-1.21.65 1.64.24 2.85.12 3.15.77.83 1.23 1.89 1.23 3.18 0 4.54-2.81 5.54-5.49 5.83.43.37.81 1.1.81 2.22 0 1.6-.01 2.9-.01 3.29 0 .32.22.7.82.58A12 12 0 0 0 24 12.29C24 5.78 18.63.5 12 .5z" />
+          </svg>
+          Source
+        </a>
+        <a
+          className="ghost star"
+          href="https://github.com/eidentic/eidentic"
+          target="_blank"
+          rel="noreferrer"
+          title="Star Eidentic on GitHub"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+            <path d="M12 2.2l2.92 6.31 6.88.7a.6.6 0 0 1 .34 1.04l-5.13 4.6 1.49 6.76a.6.6 0 0 1-.89.65L12 18.86l-6.11 3.4a.6.6 0 0 1-.89-.65l1.49-6.76-5.13-4.6a.6.6 0 0 1 .34-1.04l6.88-.7L11.5 2.2a.6.6 0 0 1 1.08 0z" />
+          </svg>
+          Star
+        </a>
       </header>
 
       <div className="cols">
